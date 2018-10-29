@@ -13,7 +13,9 @@ This port is based directly on the torch implementation, and not on an existing 
 ## Setup
 
 ### Prerequisites
-- Tensorflow 1.0.0
+- TensorFlow 1.0.0
+- TensorFlow 1.4.0
+- TensorFlow 1.8.0
 
 ### Recommended
 - Linux with Tensorflow GPU edition + cuDNN
