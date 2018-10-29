@@ -237,6 +237,16 @@ Comparison on facades dataset:
 | <img src="docs/51-inputs.png" width="256px"> | <img src="docs/51-tensorflow.png" width="256px"> | <img src="docs/51-torch.jpg" width="256px"> | <img src="docs/51-targets.png" width="256px"> |
 | <img src="docs/95-inputs.png" width="256px"> | <img src="docs/95-tensorflow.png" width="256px"> | <img src="docs/95-torch.jpg" width="256px"> | <img src="docs/95-targets.png" width="256px"> |
 
+## Test Mode
+If you want to use only pix2pix test function, execute following command.
+
+`test.jpg` is normal image data(not pix2pix format)
+
+```sh
+python pix2pix_test.py --mode test --output_dir pix2pix_test --checkpoint pix2pix_train --input_img test.jpg
+```
+
+
 ## Unimplemented Features
 
 The following models have not been implemented:
